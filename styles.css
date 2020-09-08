@@ -185,7 +185,7 @@ background-color: rgba(0,136,168,0.8);
 .sectionTwo {
     min-height: auto;
     max-width: 100%;
-    background-color: #595959;
+    background-color: #24252A;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -255,4 +255,51 @@ background-color: rgba(0,136,168,0.8);
 
 .card p {
     padding: 10px;
+}
+
+/* Contact Us Page */ 
+
+.formBackground {
+    width: 100%;
+    height: 90vh;
+    background-image: url(/images/fencing-form-background.jpg);
+}
+
+.form-container {
+    height: 80%;
+    width: 35%;
+    background-color: #fff;
+    opacity: 0.95;
+    position: relative;
+    top: 10%;
+    left: 55%;
+}
+
+.form-container h2 {
+    padding: 7.5%;
+}
+
+.formLabel {
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.input {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-right: 30%;
+}
+
+@media screen and (max-width:650px) {
+    .form-container {
+        width: 80%;
+        height: 80%;
+        background-color: #fff;
+        position: relative;
+        left: 10%;
+    }
+
+    .input {
+        padding-right: 10%;
+    }
 }

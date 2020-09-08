@@ -195,7 +195,7 @@ background-color: rgba(0,136,168,0.8);
 }
 
 .container {
-    max-width: 80%;
+    max-width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -255,6 +255,25 @@ background-color: rgba(0,136,168,0.8);
 
 .card p {
     padding: 10px;
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: grey;
+    height: auto;
+}
+
+.container-footer {
+    min-height: 150px;
+    min-width: 350px;
+    background: red;
+    flex-direction: column;
+    margin: 10%;
 }
 
 /* Contact Us Page */ 

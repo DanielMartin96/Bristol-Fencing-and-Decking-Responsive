@@ -99,8 +99,6 @@ background-color: rgba(0,136,168,0.8);
 .first-cta {
     margin: auto;
     text-align: center;
-    opacity: 1;
-    z-index: 1;
 }
 
 .first-cta h1 {

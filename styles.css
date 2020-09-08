@@ -249,13 +249,3 @@ background-color: rgba(0,136,168,0.8);
 .card p {
     padding: 10px;
 }
-
-.facebook-reviews {
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    overflow-x: hidden;
-}

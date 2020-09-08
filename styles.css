@@ -82,7 +82,7 @@ background-color: rgba(0,136,168,0.8);
 
 .sectionOne {
     background-image: url(/images/alexandre-boucher-zZwLBL9W0tE-unsplash.jpg);
-    min-width: 100%;
+    width: 100%;
     min-height: 89vh;
     display: flex;
     opacity: 0.85;

@@ -257,4 +257,5 @@ background-color: rgba(0,136,168,0.8);
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    overflow-x: hidden;
 }

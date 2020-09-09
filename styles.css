@@ -275,16 +275,17 @@ background-color: rgba(0,136,168,0.8);
     font-size: 5vh;
     font-weight: lighter;
     opacity: 0.5;
-    text-align: left;
+    text-align: right;
     width: 80%;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .sectionTwo p {
     width: 80%;
     margin: auto;
     padding-bottom: 20px;
+    text-align: right;
 }
 
 /* Contact Us Page */ 
@@ -353,9 +354,10 @@ background-color: rgba(0,136,168,0.8);
 }
 
 .about p {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     width: 80%;
     margin: auto;
+    border-bottom: 2px grey solid;
 }
 
 .our-process {
@@ -428,7 +430,7 @@ background-color: rgba(0,136,168,0.8);
 
 .image-below-processes img {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
 }
 
 @media screen and (max-width: 600px) {
@@ -460,7 +462,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 60px 20px 60px 20px;
     flex-direction: column;
     margin: auto;
 }

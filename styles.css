@@ -508,7 +508,7 @@ footer {
     justify-content: center;
     margin: auto;
     padding: 20px;
-    background: darkgray;
+    background: #f2f2f2;
     text-align: right;
 }
 
@@ -540,7 +540,7 @@ footer {
     justify-content: center;
     margin: auto;
     padding: 20px;
-    background: red;
+    background: #b3ecff;
     text-align: left;
 }
 
@@ -572,7 +572,7 @@ footer {
     justify-content: center;
     margin: auto;
     padding: 20px;
-    background: royalblue;
+    background: #f2f2f2;
     text-align: right;
 }
 
@@ -592,4 +592,36 @@ footer {
     position: relative;
     padding-bottom: 20px;
     padding-right: 20px;
+}
+
+.gates {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    background: #b3ecff;
+    text-align: left;
+}
+
+.gates-photo {
+    width: 400px;
+    height: 400px;
+}
+
+.gates-photo img {
+    width: 400px;
+    height: 400px;
+}
+
+.gates-info {
+    width: 550px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
 }

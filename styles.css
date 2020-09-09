@@ -100,7 +100,6 @@ background-color: rgba(0,136,168,0.8);
     min-height: 89vh;
     display: flex;
     opacity: 0.8;
-    z-index: 0;
 }
 
 .first-cta {
@@ -109,7 +108,7 @@ background-color: rgba(0,136,168,0.8);
 }
 
 .first-cta h1 {
-    font-size: 6vh;
+    font-size: 5vh;
 }
 
 .first-cta h2 {

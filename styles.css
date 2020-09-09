@@ -380,11 +380,12 @@ background-color: rgba(0,136,168,0.8);
     text-align: left;
     margin: auto;
     width: 80%;
+    padding-bottom: 60px;
 }
 
 .our-process-container {
     margin: auto;
-    width: 60%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -394,9 +395,9 @@ background-color: rgba(0,136,168,0.8);
 }
 
 .our-process-card {
-    width: 300px;
+    width: 900px;
     height: auto;
-    margin: 40px;
+    margin: 20px;
     padding: 20px;   
     position: relative;
     opacity: 0.7;

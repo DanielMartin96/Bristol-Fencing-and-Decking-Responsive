@@ -443,7 +443,7 @@ background-color: rgba(0,136,168,0.8);
 
 footer {
     width: 100%;
-    height: 125px;
+    height: 200px;
     background-color: #24252A;
 }
 
@@ -630,22 +630,38 @@ footer {
     padding-left: 20px;
 }
 
-.projects {
-    width: 80%;
-    height: auto;
+.projects-desktop {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     margin: auto;
+    background: #f2f2f2;
+    overflow-y: hidden;
+}
+
+.projects-desktop h2 {
+    padding: 20px;
 }
 
 .project-card {
-    width: auto;
+    width: 65%;
     height: 75px;
     transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+#one {
+    background-color: #b3ecff;
+    text-align: right;
+}
+
+#two {
+    text-align: left;
 }
 
 .project-card:hover {
@@ -654,10 +670,9 @@ footer {
 
 .project-card .project-image {
     position: relative;
-    width: 260px;
-    height: 260px;
+    width: 250px;
+    height: 250px;
     top: -40px;
-    left: 15px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
 }
@@ -670,7 +685,7 @@ footer {
 .project-card .project-info {
     position: relative;
     margin-top: -140px;
-    padding: 10px 15px;
+    padding: 0 20px 0 20px;
     text-align: center;
     color: #111;
     visibility: hidden;
@@ -696,15 +711,10 @@ footer {
     justify-items: center;
 }
 
-.project-headline {
-    padding-bottom: 40px;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
 .project-description {
     width: auto;
     height: auto;
+    padding-top: 40px;
 }
 
 .project-image {
@@ -712,4 +722,10 @@ footer {
     height: 250px;
     margin: auto;
     margin-top: 75px;
+}
+
+@media screen and (max-width: 1000px) {
+    .projects-desktop {
+        visibility: hidden;
+    }
 }

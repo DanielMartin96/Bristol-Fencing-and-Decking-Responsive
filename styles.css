@@ -218,7 +218,6 @@ background-color: rgba(0,136,168,0.8);
     margin: 30px 30px 50px 30px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
     transition: 0.3s ease-in-out;
 }
 
@@ -234,7 +233,6 @@ background-color: rgba(0,136,168,0.8);
     top: -60px;
     left: 15px;
     z-index: 1;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
 }
 
 .container .card .imgBox img {
@@ -262,14 +260,6 @@ background-color: rgba(0,136,168,0.8);
 
 .card p {
     padding: 10px;
-}
-
-.container-footer {
-    min-height: 150px;
-    min-width: 350px;
-    background: red;
-    flex-direction: column;
-    margin: 10%;
 }
 
 .sectionTwo h1 {
@@ -527,7 +517,7 @@ footer {
 }
 
 .fencing-info {
-    width: 550px;
+    width: 700px;
     height: auto;
     position: relative;
     padding-bottom: 20px;
@@ -559,7 +549,7 @@ footer {
 }
 
 .decking-info {
-    width: 550px;
+    width: 700px;
     height: auto;
     position: relative;
     padding-top: 20px;
@@ -591,7 +581,7 @@ footer {
 }
 
 .sheds-info {
-    width: 550px;
+    width: 700px;
     height: auto;
     position: relative;
     padding-bottom: 20px;
@@ -623,7 +613,7 @@ footer {
 }
 
 .gates-info {
-    width: 550px;
+    width: 700px;
     height: auto;
     position: relative;
     padding-top: 20px;

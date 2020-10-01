@@ -1,49 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <div class="logo-container">
-                <a href="index.html" class="logo"><img src="images/logo.png"alt="logo" class="logo"></a>
-            </div>
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="services.html">SERVICES</a></li>
-                    <li><a href="projects.html">PROJECTS</a></li>
-                    <li class="highlighted"><a class="cta" href="contactUs.html"><button>GET QUOTE</button></a></li>
-                </ul>
-                <div class="burger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-            </nav>
-        </header>
-       <main>
-           <section class="formBackground">
-               <div class="form-container">
-                   <h2>We will calculate your project on favourable terms</h2>
-                   <label for="inputName" class="formLabel">Name*</label><br>
-                   <input type="text" id="inputName" name="inputName" class="input"><br>
-                   <label for="inputEmail" class="formLabel">Email*</label><br>
-                   <input type="email" id="inputEmail" name="inputEmail" class="input"><br>
-                   <label for="inputPhone" class="formLabel">Phone*</label><br>
-                   <input type="tel" id="inputPhone" name="inputPhone" class="input"><br>
-                   <label for="inputMessage" class="formLabel">What is your project?*</label><br>
-                   <textarea name="message" id="inputMessage" rows="5" cols="20" class="input"></textarea><br>
-                   <span class="submission"><input type="submit" class="inputButton"></span>
-               </div>
-           </section>
-       </main>
-       <footer>
-       </footer>
-       <script src="script.js"></script>
-    </body>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-179393975-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-179393975-1");
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <a href="index.html" class="logo"
+          ><img src="images/logo.png" alt="logo" class="logo"
+        /></a>
+      </div>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li class="highlighted">
+            <a class="cta" href="contactUs.html"><button>GET QUOTE</button></a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="formBackground">
+        <div class="form-container">
+          <h2>We will calculate your project on favourable terms</h2>
+          <label for="inputName" class="formLabel">Name*</label><br />
+          <input
+            type="text"
+            id="inputName"
+            name="inputName"
+            class="input"
+          /><br />
+          <label for="inputEmail" class="formLabel">Email*</label><br />
+          <input
+            type="email"
+            id="inputEmail"
+            name="inputEmail"
+            class="input"
+          /><br />
+          <label for="inputPhone" class="formLabel">Phone*</label><br />
+          <input
+            type="tel"
+            id="inputPhone"
+            name="inputPhone"
+            class="input"
+          /><br />
+          <label for="inputMessage" class="formLabel"
+            >What is your project?*</label
+          ><br />
+          <textarea
+            name="message"
+            id="inputMessage"
+            rows="5"
+            cols="20"
+            class="input"
+          ></textarea
+          ><br />
+          <span class="submission"
+            ><input type="submit" class="inputButton"
+          /></span>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
 </html>
